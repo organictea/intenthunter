@@ -73,7 +73,6 @@ if __name__ == '__main__':
     working_dir = "working_dir"
     manifest_filename = "AndroidManifest.xml"
     apk_filename = input("Enter the full path of the apk file: ")
-    # apk_filename = "D:\\lab\\bugbounty\\mobile\\apps\\linkedin\\LinkedIn 4.1.707.apk"
     extract_manifest(apk_filename)
     manifest_relative_path = working_dir + "\\" + manifest_filename
     parse_manifest(manifest_relative_path)
